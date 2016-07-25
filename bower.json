@@ -1,0 +1,29 @@
+{
+  "name": "key-code",
+  "version": "0.0.1",
+  "description": "Library for key-code constants in ECMAScript/Javascript",
+  "main": "index.js",
+  "authors": [
+    "Thiago Garbazza <thiagogarbazza@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "key",
+    "code",
+    "keyboard",
+    "constant",
+    "javascript",
+    "js",
+    "ecmascript",
+    "es"
+  ],
+  "homepage": "https://github.com/thiagogarbazza/key-code",
+  "ignore": [
+    "**/.*",
+    "src",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

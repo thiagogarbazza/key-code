@@ -1,0 +1,41 @@
+{
+  "name": "key-code",
+  "version": "0.0.1",
+  "description": "Library for key-code constants in ECMAScript/Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*-spec.js",
+    "build": "gulp",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagogarbazza/key-code.git"
+  },
+  "keywords": [
+    "key",
+    "code",
+    "keyboard",
+    "constant",
+    "javascript",
+    "js",
+    "ecmascript",
+    "es"
+  ],
+  "author": "Thiago Garbazza <thiagogarbazza@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thiagogarbazza/key-code/issues"
+  },
+  "homepage": "https://github.com/thiagogarbazza/key-code#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.4",
+    "mocha": "^2.5.3",
+    "run-sequence": "^1.2.2"
+  }
+}
