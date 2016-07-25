@@ -2,7 +2,6 @@
 const expect = require('chai').expect;
 
 describe('key-code test', () => {
-
   let KeyCode;
 
   beforeEach(() => {
