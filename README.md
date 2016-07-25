@@ -1,4 +1,7 @@
 # key-code #
+[![Build Status](https://travis-ci.org/thiagogarbazza/key-code.svg?branch=master)](https://travis-ci.org/thiagogarbazza/key-code)
+
+
 Library for key-code constants in ECMAScript/Javascript
 
 For more information [see this](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode#Constants_for_keyCode_value).
