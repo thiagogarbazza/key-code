@@ -1,5 +1,5 @@
 (function(global, factory) {
-  if (typeof module === 'object' && module.exports) module.exports = factory();
+  if (typeof module === 'object' && typeof module.exports === 'object') module.exports = factory();
   else if (typeof define === 'function' && define.amd) define(factory);
   else global.KeyCode = factory();
 }(this, function() {
