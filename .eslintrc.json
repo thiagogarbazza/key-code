@@ -1,0 +1,14 @@
+{
+  "env": {
+    "amd": true
+  },
+  "extends": "restrict/es-5",
+  "globals": {
+    "module": true
+  },
+  "rules": {
+     "id-length": "off",
+     "max-statements": "off",
+     "no-magic-numbers": "off"
+  }
+}

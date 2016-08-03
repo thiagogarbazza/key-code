@@ -30,6 +30,7 @@
   "homepage": "https://github.com/thiagogarbazza/key-code#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "eslint-config-restrict": "0.0.1",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
     "gulp-rename": "^1.2.2",

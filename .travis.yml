@@ -5,3 +5,10 @@ node_js:
 cache:
   directories:
     - node_modules
+deploy:
+  provider: npm
+  email: "thiagogarbazza@gmail.com"
+  api_key:
+    secure: $NPM_AUTH_TOKEN 
+  on:
+    tags: true

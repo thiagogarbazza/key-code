@@ -1,13 +1,14 @@
 (function(global, factory) {
+  'use strict';
   if (typeof module === 'object' && typeof module.exports === 'object') module.exports = factory();
   else if (typeof define === 'function' && define.amd) define(factory);
   else global.KeyCode = factory();
-}(this, function() {
+})(this, function() {
   'use strict';
 
   var KeyCode = {};
 
-  //Key Code values
+  // Key Code values
   KeyCode.A = 65;
   KeyCode.B = 66;
   KeyCode.C = 67;
@@ -35,7 +36,7 @@
   KeyCode.Y = 89;
   KeyCode.Z = 90;
 
-  //NUMBERS
+  // NUMBERS
   KeyCode.ZERO = 48;
   KeyCode.ONE = 49;
   KeyCode.TWO = 50;
@@ -47,7 +48,7 @@
   KeyCode.EIGHT = 56;
   KeyCode.NINE = 57;
 
-  //NUMPAD
+  // NUMPAD
   KeyCode.NUMPAD_0 = 96;
   KeyCode.NUMPAD_1 = 97;
   KeyCode.NUMPAD_2 = 98;
@@ -65,7 +66,7 @@
   KeyCode.NUMPAD_DECIMAL = 110;
   KeyCode.NUMPAD_DIVIDE = 111;
 
-  //FUNCTION KEYS
+  // FUNCTION KEYS
   KeyCode.F1 = 112;
   KeyCode.F2 = 113;
   KeyCode.F3 = 114;
@@ -82,7 +83,7 @@
   KeyCode.F14 = 125;
   KeyCode.F15 = 126;
 
-  //SYMBOLS
+  // SYMBOLS
   KeyCode.COLON = 186;
   KeyCode.EQUALS = 187;
   KeyCode.UNDERSCORE = 189;
@@ -95,7 +96,7 @@
   KeyCode.LESS_THAN = 188;
   KeyCode.GREATER_THAN = 190;
 
-  //OTHER KEYS    
+  // OTHER KEYS
   KeyCode.BACKSPACE = 8;
   KeyCode.TAB = 9;
   KeyCode.CLEAR = 12;
@@ -120,4 +121,4 @@
   KeyCode.NUM_LOCK = 144;
 
   return KeyCode;
-}));
+});
