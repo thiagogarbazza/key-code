@@ -7,8 +7,8 @@
     "module": true
   },
   "rules": {
-     "id-length": "off",
-     "max-statements": "off",
-     "no-magic-numbers": "off"
+    "id-length": "off",
+    "max-statements": "off",
+    "no-magic-numbers": "off"
   }
 }

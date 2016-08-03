@@ -1,5 +1,6 @@
-# key-code #
+# key-code
 [![Build Status](https://travis-ci.org/thiagogarbazza/key-code.svg?branch=master)](https://travis-ci.org/thiagogarbazza/key-code)
+[![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/thiagogarbazza/angular-alloyeditor/)
 
 
 Library for key-code constants in ECMAScript/Javascript
@@ -8,23 +9,23 @@ For more information [see this](https://developer.mozilla.org/en-US/docs/Web/API
 
 See [key-code.js](src/key-code.js)  for a full list of all the constants
 
-## Installation ##
+## Installation
 
-### Using NPM ###
+### Using NPM
 
 ```sh
 npm install --save key-code
 ```
 
-### Using Bower ###
+### Using Bower
 
 ```sh
 bower install --save key-code
 ```
 
-## Usage ##
+## Usage
 
-### Using NodeJs ###
+### Using NodeJs
 
 Include the package using CommonJS require()
 ```js
@@ -37,7 +38,7 @@ or ES2015 import:
 import KeyCode from 'key-code';
 ```
 
-### Using Browser ###
+### Using Browser
 
 ```html
 <!-- Load files. -->
@@ -54,6 +55,6 @@ function myFunction(event) {
 }
 ```
 
-## License ##
+## License
 
 The `key-code` project is under MIT license.
