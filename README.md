@@ -1,6 +1,6 @@
 # key-code
 [![Build Status](https://travis-ci.org/thiagogarbazza/key-code.svg?branch=master)](https://travis-ci.org/thiagogarbazza/key-code)
-[![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/thiagogarbazza/angular-alloyeditor/)
+[![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/thiagogarbazza/key-code/)
 
 
 Library for key-code constants in ECMAScript/Javascript
