@@ -55,6 +55,24 @@ function myFunction(event) {
 }
 ```
 
+## Using Browser via CDN - [jsdelivr](https://www.jsdelivr.com)
+
+```html
+<!-- Load files. -->
+<script src="https://cdn.jsdelivr.net/npm/key-code@0.0.1/dist/key-code.js"></script>
+
+<input type="text" onkeydown="myFunction(event)">
+```
+
+```js
+function myFunction(event) {
+    if (event.keyCode === KeyCode.ENTER) {
+        alert('keypress ENTER');
+    }
+}
+```
+
+
 ## License
 
 The `key-code` project is under MIT license.
