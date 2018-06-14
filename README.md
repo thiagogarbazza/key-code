@@ -55,7 +55,7 @@ function myFunction(event) {
 }
 ```
 
-## Using Browser via CDN - [jsdelivr](https://www.jsdelivr.com)
+### Using Browser via CDN - [jsdelivr](https://www.jsdelivr.com)
 
 ```html
 <!-- Load files. -->
